@@ -6,7 +6,7 @@ const HOST = '0.0.0.0';
 const PORT = 8080;
 
 app.get('/', async (req: Request, res: Response) => {
-	return res.send('Hello Word HEllo Word Estou presente')
+	return res.send('Colocando Uma API RestFull no Docker');
 });
 
 app.listen(PORT, HOST, () => {

@@ -1,3 +1,6 @@
 FROM : alphine
+EXEC
+
 
 COPY ..
+
