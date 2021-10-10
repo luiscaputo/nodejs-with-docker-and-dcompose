@@ -6,5 +6,5 @@ services:
         command: npm start
         ports: 
             - "8080:8080"
-          volumes: 
-              - .:/usr/app
+        volumes: 
+            - .:/usr/app
